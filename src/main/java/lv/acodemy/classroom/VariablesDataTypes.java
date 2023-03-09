@@ -14,7 +14,7 @@ public class VariablesDataTypes {
         System.out.println(salary);
 
         //char data type
-        char firstNameLetter = 'v';//or 118
+        char firstNameLetter = 118; //'v';
         System.out.println(firstNameLetter);
 
         //int data type
