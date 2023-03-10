@@ -46,33 +46,42 @@ public class homework_01032023 {
         String fullName = name + " " + surName;
         System.out.println(fullName);
 
+        /*
         String marathonRecap = fullName + " finished Brighton's marathon in " + myMarathonResult + " with the pace of "
                 + myAveragePace + " and average heartbeat of " + averageHearRate;
         System.out.printf(marathonRecap);
+        */
+
+        System.out.printf("%s finished Brighton's marathon in %f with the pace of %f and average heart beat of %f\n",
+                fullName, myMarathonResult, myAveragePace, averageHearRate);
+
 
 
         // System.out.printf("My full name is: %s. I am %d years old\n", fullName, myMarathonResult);
         //System.out.printf("My full name is: %s. I am %d years old%n", fullName, myCurrentAge);
 
-        //*
-        int a = 10;
-        int b = 20;
+        System.out.println(" ===========//===========");
+
+        int a = 100;
+        int b = 200;
         int c = a * b;
+
         System.out.println(c);
         System.out.println(10 * 20);
         System.out.println(a * b);
         System.out.println("20 * 10");
 
-        //division
         double result = (double) a / b;
         System.out.println(result);
 
-        // %
-        int number = 10 % 4;
-        System.out.println(number);
+        double result1 = (double) a + b;
+        System.out.println(a + b);
 
-        int[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        System.out.println(Arrays.toString(numbers));
+        int result2 = (int) b - a;
+        System.out.println("200 - 100");
+
+        int number = 20 % 9;
+        System.out.println(number);
 
     }
 }
